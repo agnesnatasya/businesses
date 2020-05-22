@@ -7,6 +7,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>businesses</h1>
+        <SearchBar />
+        <BusinessList />
       </div>
     );
   }
